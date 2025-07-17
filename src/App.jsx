@@ -4,16 +4,19 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div>
-        
+      <div class='header'>
+        <div> Livestra Comics</div>
+        <div class='search-bar'>
+          <input type="text" placeholder="Tìm kiếm truyện ... " />
+          <button> <i class="fa-solid fa-magnifying-glass"></i> </button>
+        </div>
+        <div class='r-buttons'>
+          <button class='re-btn'> Đăng kí</button>
+          <button class='lg-btn'> Đăng nhập</button>
+        </div>
       </div>
-      <p className="read-the-docs">
-        Bấm vào 2 cái logo đó để tìm hiểu thêm về Vite và React đê mày!
-      </p>
     </>
   );
 }
