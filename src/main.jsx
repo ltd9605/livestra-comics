@@ -5,6 +5,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <img src="src/assets/img/bgr.gif" class="background-image" alt="background"></img>
     <App />
-  </StrictMode>,
+  </StrictMode>
 )

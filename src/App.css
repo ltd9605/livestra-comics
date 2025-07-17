@@ -31,17 +31,19 @@
   display: flex;
   width: 30%;
   height: 30px;
-  border: solid 1px #ddd;
+  background-color:  #ddd;
   border-radius: 24px;
   padding: 5px;
 }
 .search-bar> input{
+  background-color:  #ddd;
   width: calc(100% - 30px);
   border: none;
+  outline: none;
   font-size: 16px;
+  padding: 0 20px;
 }
 .search-bar> button {
-
   width: 70px;
   padding: 5px;
   border-radius: 10px;
