@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div class='header'>
-        <div> Livestra Comics</div>
+        <div  class='logo'> <img class='logo' src="src/assets/img/logo.png" alt="" /></div>
         <div class='search-bar'>
           <input type="text" placeholder="Tìm kiếm truyện ... " />
           <button> <i class="fa-solid fa-magnifying-glass"></i> </button>
