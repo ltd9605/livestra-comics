@@ -1,74 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Michroma&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Michroma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap");
 
 .header {
-    background-color: #ffffff;
-    display: flex;
-    height: 74px;
-    align-items: center;
-    color: #000;
-    justify-content: center;
-    gap: 144px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  height: 74px;
+  align-items: center;
+  color: #000;
+  justify-content: center;
+  gap: 144px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-    box-sizing: border-box;
-    height: 54px;
+  box-sizing: border-box;
+  height: 70px;
 }
 
-.r-buttons>button {
-    width: 100px;
-    padding: 10px 15px;
-    color: #fff;
-    margin: 0 6px 0 6px;
-    border-radius: 3px;
-    border: none;
+.r-buttons > button {
+  width: 100px;
+  padding: 10px 15px;
+  color: #fff;
+  margin: 0 6px 0 6px;
+  border-radius: 3px;
+  border: none;
 }
 
 .re-btn {
-    background-color: #34495e;
-
+  background-color: #34495e;
 }
-.re-btn:hover{
-    background-color: #507192;
+.re-btn:hover {
+  background-color: #507192;
 }
 
 .lg-btn {
-    background-color: #1f2c38;
+  background-color: #1f2c38;
 }
-.lg-btn:hover{
-    background-color: #374552;
+.lg-btn:hover {
+  background-color: #374552;
 }
 
 .search-bar {
-    display: flex;
-    width: 30%;
-    height: 30px;
-    background-color: #ddd;
-    border-radius: 24px;
-    padding: 5px;
+  display: flex;
+  width: 30%;
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 24px;
+  padding: 5px;
 }
 
-.search-bar>input {
-    background-color: #ddd;
-    width: calc(100% - 30px);
-    border: none;
-    outline: none;
-    font-size: 16px;
-    padding: 0 20px;
+.search-bar > input {
+  background-color: #ddd;
+  width: calc(100% - 30px);
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 0 20px;
 }
 
-.search-bar>button {
-    background-color: #ddd;
-    width: 70px;
-    padding: 5px;
-    border-radius: 24px;
-    border: none;
+.search-bar > button {
+  background-color: #ddd;
+  width: 70px;
+  padding: 5px;
+  border-radius: 24px;
+  border: none;
 }
-.search-bar>button:hover{
-    cursor: pointer;
-    background-color: antiquewhite;
+.search-bar > button:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
 }
 .modal-overlay {
   position: fixed;
@@ -98,7 +97,8 @@
   font-size: 22px;
 }
 
-.login-modal input[type="text"],.login-modal input[type="email"],
+.login-modal input[type="text"],
+.login-modal input[type="email"],
 .login-modal input[type="password"] {
   width: 100%;
   padding: 10px;
@@ -153,7 +153,7 @@
   color: #333;
   cursor: pointer;
 }
- 
+
 @keyframes fadeIn {
   from {
     opacity: 0;
