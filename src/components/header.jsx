@@ -94,6 +94,24 @@ const Header = () => {
           </div>
         </div>
       )}
+      <nav className="nav-list">
+        <div className="nav-l-list">
+          <ul>
+            <li>Trang chủ</li>
+            <li>Danh sách truyện</li>
+            <li>Truyện sáng tác</li>
+            <li>Bảng yêu cầu</li>
+          </ul>
+        </div>
+        <div className="nav-r-list">
+          <button className="remain-monney">1 LÚa</button>
+          <button className="pay-monney">Nạp thêm</button>
+          <button className="theme" id="theme">Tắt đèn</button>
+        </div>
+      </nav>
+      <div className="nav-discord">
+        <button className="btn-discord"><i class="fa-brands fa-discord"></i> Tham gia discord</button>
+      </div>
     </>
   );
 };
