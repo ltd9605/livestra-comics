@@ -104,13 +104,13 @@ const Header = () => {
           </ul>
         </div>
         <div className="nav-r-list">
-          <button className="remain-monney">1 LÚa</button>
+          <button className="remain-monney">0 : <i className="fa-solid fa-coins"></i></button>
           <button className="pay-monney">Nạp thêm</button>
           <button className="theme" id="theme">Tắt đèn</button>
         </div>
       </nav>
       <div className="nav-discord">
-        <button className="btn-discord"><i class="fa-brands fa-discord"></i> Tham gia discord</button>
+        <button className="btn-discord"><i className="fa-brands fa-discord"></i> Tham gia discord</button>
       </div>
     </>
   );

@@ -45,26 +45,26 @@ VALUES
 
 INSERT INTO truyen (ten, author, so_chuong, imageURL, [status], [description], type_id)
 VALUES
-(N'One Piece', N'Eiichiro Oda', 1100, 'https://img.com/op.jpg', 1, N'Truyện về hải tặc', 1),
-(N'Dragon Ball', N'Akira Toriyama', 520, 'https://img.com/db.jpg', 1, N'Truyện phiêu lưu viễn tưởng', 1),
-(N'Naruto', N'Kishimoto Masashi', 700, 'https://img.com/naruto.jpg', 1, N'Ninja và tình bạn', 1),
-(N'Bleach', N'Tite Kubo', 686, 'https://img.com/bleach.jpg', 1, N'Truyện về tử thần', 1),
-(N'Detective Conan', N'Gosho Aoyama', 1050, 'https://img.com/conan.jpg', 1, N'Truyện trinh thám hấp dẫn', 2),
-(N'Doraemon', N'Fujiko F. Fujio', 1345, 'https://img.com/doraemon.jpg', 1, N'Truyện thiếu nhi, hài hước', 2),
-(N'Crayon Shin-chan', N'Yoshito Usui', 850, 'https://img.com/shin.jpg', 1, N'Hài hước xoay quanh cậu bé Shin', 2),
-(N'Attack on Titan', N'Hajime Isayama', 139, 'https://img.com/aot.jpg', 1, N'Truyện chiến đấu và sinh tồn', 1),
-(N'Tokyo Ghoul', N'Ishida Sui', 180, 'https://img.com/tokyo.jpg', 1, N'Kinh dị và hành động', 1),
-(N'Your Lie in April', N'Naoshi Arakawa', 45, 'https://img.com/april.jpg', 1, N'Tình cảm và âm nhạc', 3),
-(N'Toradora!', N'Yuyuko Takemiya', 60, 'https://img.com/toradora.jpg', 1, N'Truyện học đường lãng mạn', 3),
-(N'Kimi no Na wa', N'Makoto Shinkai', 1, 'https://img.com/kimi.jpg', 1, N'Truyện chuyển thể từ phim nổi tiếng', 3),
-(N'Clannad', N'Key', 70, 'https://img.com/clannad.jpg', 1, N'Tình cảm học đường', 3),
-(N'Sword Art Online', N'Reki Kawahara', 250, 'https://img.com/sao.jpg', 1, N'Game nhập vai thế giới ảo', 1),
-(N'The Promised Neverland', N'Kaiu Shirai', 181, 'https://img.com/neverland.jpg', 1, N'Sinh tồn và bí ẩn', 1),
-(N'One Punch Man', N'ONE', 180, 'https://img.com/opm.jpg', 1, N'Hành động và hài hước', 2),
-(N'Fairy Tail', N'Hiro Mashima', 545, 'https://img.com/fairy.jpg', 1, N'Phép thuật và hội pháp sư', 1),
-(N'Kaguya-sama: Love is War', N'Aka Akasaka', 281, 'https://img.com/kaguya.jpg', 1, N'Hài hước, tình cảm học đường', 2),
-(N'My Hero Academia', N'Kohei Horikoshi', 400, 'https://img.com/mha.jpg', 1, N'Siêu anh hùng và hành động', 1),
-(N'Re:Zero', N'Tappei Nagatsuki', 100, 'https://img.com/rezero.jpg', 1, N'Isekai, tình cảm và hành động', 3);
+(N'One Piece', N'Eiichiro Oda', 1100, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Truyện về hải tặc', 1),
+(N'Dragon Ball', N'Akira Toriyama', 520, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Truyện phiêu lưu viễn tưởng', 1),
+(N'Naruto', N'Kishimoto Masashi', 700, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Ninja và tình bạn', 1),
+(N'Bleach', N'Tite Kubo', 686, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Truyện về tử thần', 1),
+(N'Detective Conan', N'Gosho Aoyama', 1050, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Truyện trinh thám hấp dẫn', 2),
+(N'Doraemon', N'Fujiko F. Fujio', 1345, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Truyện thiếu nhi, hài hước', 2),
+(N'Crayon Shin-chan', N'Yoshito Usui', 850, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Hài hước xoay quanh cậu bé Shin', 2),
+(N'Attack on Titan', N'Hajime Isayama', 139, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Truyện chiến đấu và sinh tồn', 1),
+(N'Tokyo Ghoul', N'Ishida Sui', 180, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Kinh dị và hành động', 1),
+(N'Your Lie in April', N'Naoshi Arakawa', 45, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Tình cảm và âm nhạc', 3),
+(N'Toradora!', N'Yuyuko Takemiya', 60, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Truyện học đường lãng mạn', 3),
+(N'Kimi no Na wa', N'Makoto Shinkai', 1, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Truyện chuyển thể từ phim nổi tiếng', 3),
+(N'Clannad', N'Key', 70, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Tình cảm học đường', 3),
+(N'Sword Art Online', N'Reki Kawahara', 250, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Game nhập vai thế giới ảo', 6),
+(N'The Promised Neverland', N'Kaiu Shirai', 181, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Sinh tồn và bí ẩn', 1),
+(N'One Punch Man', N'ONE', 180, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Hành động và hài hước', 2),
+(N'Fairy Tail', N'Hiro Mashima', 545, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Phép thuật và hội pháp sư', 1),
+(N'Kaguya-sama: Love is War', N'Aka Akasaka', 281, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Hài hước, tình cảm học đường', 2),
+(N'My Hero Academia', N'Kohei Horikoshi', 400, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Siêu anh hùng và hành động', 1),
+(N'Re:Zero', N'Tappei Nagatsuki', 100, 'https://valvrareteam.b-cdn.net/illustrations/1751016467425-clean.webp', 1, N'Isekai, tình cảm và hành động', 6);
 INSERT INTO [type] (type_name)
 VALUES 
 (N'Hành động'),         -- id = 1
