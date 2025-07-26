@@ -46,41 +46,40 @@ const Profile = () => {
                 <div className="profile-info-card">
                     <div className="profile-info-title">
                         Giới thiệu
-                        <button className="profile-edit-btn">Sửa</button>
+                        <button className="profile-edit-btn"><i class="fa-solid fa-pen-to-square"></i>Sửa</button>
                     </div>
                     <div className="profile-info-content">
                         {user.bio ? user.bio : <span className="profile-info-empty">Chưa có giới thiệu. Nhấn "Sửa" để thêm giới thiệu về bản thân.</span>}
                     </div>
                     <div className="profile-info-title">
                         Chức danh
-                        <button className="profile-edit-btn">Sửa</button>
+                        <button className="profile-edit-btn"><i class="fa-solid fa-pen-to-square"></i>Sửa</button>
                     </div>
                     <div className="profile-info-content">
                         {user.title ? user.title : <span className="profile-info-empty">Chưa có chức danh nào. Nhấn "Sửa" để thêm chức danh.</span>}
                     </div>
                 </div>
-                <div className="profile-progress-card">
-                    <div className="profile-progress-header in-progress">
-                        <span className="profile-progress-count">0</span>
-                        Đang tiến hành
-                        <button className="profile-progress-refresh">
-                            <i className="fa fa-refresh"></i>
-                        </button>
+                <div className="profile-progress-container">
+                    <div className="profile-progress-card">
+                        <div className="profile-progress-header in-progress">
+                            <span className="profile-progress-count">0</span>
+                            Đang tiến hành
+                            <button className="profile-progress-refresh">
+                                <i className="fa fa-refresh"></i>
+                            </button>
+                        </div>
+                        <div className="profile-progress-content">
+                            <span className="profile-progress-empty">Không có tập đang tiến hành</span>
+                        </div>
                     </div>
-                    <div className="profile-progress-content">
-                        <span className="profile-progress-empty">Không có tập đang tiến hành</span>
-                    </div>
-                </div>
-                <div className="profile-progress-card">
-                    <div className="profile-progress-header completed">
-                        <span className="profile-progress-count">0</span>
-                        Đã hoàn thành
-                        <button className="profile-progress-refresh">
-                            <i className="fa fa-refresh"></i>
-                        </button>
-                    </div>
-                    <div className="profile-progress-content">
-                        <span className="profile-progress-empty">Không có tập đã hoàn thành</span>
+                    <div className="profile-progress-card">
+                        <div className="profile-progress-header completed">
+                            <span className="profile-progress-count">0</span>
+                            Đã hoàn thành
+                        </div>
+                        <div className="profile-progress-content">
+                            <span className="profile-progress-empty">Không có tập đã hoàn thành</span>
+                        </div>
                     </div>
                 </div>
             </div>

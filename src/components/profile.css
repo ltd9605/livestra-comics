@@ -102,6 +102,12 @@
     color: #888;
     font-family: "Inter", monospace;
 }
+.profile-progress-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    flex: 1;
+}
 .profile-progress-card {
     background: #222;
     border-radius: 12px;
