@@ -5,7 +5,7 @@ const Profile = () => {
     const user = {
         name: "libraa",
         avatarText: "TÔI BỊ NGU",
-        joined: "16/6/2025",
+        joined: "26/7/2025",
         stats: [
             { label: "Chương đã tham gia", value: 50 },
             { label: "Đang theo dõi", value: 90 },

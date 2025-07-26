@@ -17,7 +17,7 @@ const Container = () => {
             <div className="container">
                 <nav className="l-nav">
                     <div className="menu-bar">
-                        Mới cập nhập <i className="fa-duotone fa-solid fa-paperclip"></i>
+                        Mới cập nhật <i className="fa-duotone fa-solid fa-paperclip"></i>
                     </div>
                     {truyenList.map((truyen, index) => {
                         console.log(truyen);
