@@ -1,0 +1,169 @@
+
+.main-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.update-section {
+  flex: 3;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  border-left: 5px solid #e53935;
+  padding-left: 10px;
+}
+
+.arrow {
+  color: #e53935;
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+
+.story-box {
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+.story-box:hover{
+  cursor: pointer;
+}
+.story-header {
+  background: #202c45;
+  color: #ffc107;
+  padding: 0.5rem 1rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.story-content {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.story-cover {
+  position: relative;
+}
+
+.story-cover img {
+  width: 180px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.status-tag {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background: #4caf50;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.story-info {
+  flex: 1;
+  padding-left: 1rem;
+}
+
+.tags {
+  margin-bottom: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  background: #e0f7fa;
+  color: #00796b;
+  padding: 3px 8px;
+  margin: 2px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+}
+
+.desc {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.read-more {
+  color: #1976d2;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.chapter-list a {
+  display: block;
+  color: #1565c0;
+  font-size: 0.9rem;
+  margin: 0.25rem 0;
+  text-decoration: none;
+}
+
+.sidebar {
+  flex: 1;
+  background-color:#f8f9fa;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.filter-tabs {
+  display: flex;
+  gap: 1rem;
+  margin: 0.5rem 0;
+}
+
+.filter-tabs span {
+  cursor: pointer;
+  color: #888;
+  font-weight: bold;
+}
+
+.filter-tabs .active {
+  color: #e53935;
+  border-bottom: 2px solid #e53935;
+}
+
+.highlight-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.highlight-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.highlight-item img {
+  width: 60px;
+  height: 85px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.highlight-item .title {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.highlight-item .status {
+  color: #4caf50;
+  font-size: 0.85rem;
+}
+
+.highlight-item .desc {
+  font-size: 0.8rem;
+  color: #666;
+}

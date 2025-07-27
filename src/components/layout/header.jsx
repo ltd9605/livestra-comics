@@ -1,16 +1,13 @@
 import React, { useState } from "react";
-import "./header.css";
+import "../style/header.css";
 
 const Header = () => {
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [showRegisterModal, setShowRegisterModal] = useState(false);
-
   const openLoginModal = () => setShowLoginModal(true);
   const closeLoginModal = () => setShowLoginModal(false);
-
   const openRegisterModal = () => setShowRegisterModal(true);
   const closeRegisterModal = () => setShowRegisterModal(false);
-
   return (
     <>
       <div className="header">

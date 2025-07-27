@@ -1,17 +1,22 @@
 import "./App.css";
-import Header from  "./components/header";
-import Container from "./components/container";
-import Footer from "./components/footer";
-import Profile from "./components/profile";
+import { Routes, Route } from 'react-router-dom';
+import Header from "./components/layout/header";
+import Container from "./components/layout/container";
+import Footer from "./components/layout/footer";
+import Profile from "./components/layout/profile";
+import TruyenDetail from "./components/storys/truyenDetail";
+
 function App() {
   return (
-    <div>
-      <Header/>
-      <Container/>
-      <Footer/>
-      <Profile/>
-    </div>
-      
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Container />} />
+        <Route path="/truyen/:id" element={<TruyenDetail />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
+
 export default App;
