@@ -7,10 +7,10 @@
   height: 74px;
   align-items: center;
   color: #000;
-  justify-content: center;
-  gap: 144px;
+  justify-content: space-between;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   font-family: "Inter", monospace;
+  padding: 0 8% 0 8%;
 }
 
 .logo {
@@ -169,10 +169,10 @@
 .nav-list{
   display: flex;
   height: 64px;
-  width: 70%;
+  width: 90%;
   align-items: center;
   justify-content: center;
-  margin: 0 15% 20px ;
+  margin: 0 4% 20px ;
 }
 .nav-l-list {
   width: 70%;

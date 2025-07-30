@@ -4,8 +4,8 @@
   gap: 2rem;
   padding: 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  width: 80vw;
-  margin-left: 8vw;
+  width: 90vw;
+  margin-left: 4vw;
 }
 
 .update-section {
@@ -106,7 +106,7 @@
   flex: 1;
   background-color:#f8f9fa;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .filter-tabs {
