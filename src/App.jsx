@@ -1,4 +1,3 @@
-import "./App.css";
 import { Routes, Route } from 'react-router-dom';
 import Header from "./components/layout/header";
 import Container from "./components/layout/container";
@@ -12,7 +11,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Container />} />
-        <Route path="/truyen/:id" element={<TruyenDetail />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/truyen/:slug" element={<TruyenDetail />} />
       </Routes>
       <Footer />
     </>

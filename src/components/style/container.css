@@ -4,6 +4,8 @@
   gap: 2rem;
   padding: 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 80vw;
+  margin-left: 8vw;
 }
 
 .update-section {
@@ -28,10 +30,7 @@
   background: #f8f9fa;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  padding: 1rem;
-}
-.story-box:hover{
-  cursor: pointer;
+  margin: 20px 0;
 }
 .story-header {
   background: #202c45;
@@ -88,15 +87,9 @@
   font-size: 0.75rem;
 }
 
-.desc {
-  margin-bottom: 0.5rem;
-  line-height: 1.4;
-}
-
-.read-more {
-  color: #1976d2;
-  font-size: 0.9rem;
-  text-decoration: underline;
+.update-time {
+  color: #fb8181;
+  font-size: 1rem;
   display: inline-block;
   margin-bottom: 1rem;
 }
@@ -144,26 +137,48 @@
   gap: 1rem;
   align-items: flex-start;
 }
-
+.highlight-item:hover{
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
 .highlight-item img {
-  width: 60px;
+  width: 74px;
   height: 85px;
   object-fit: cover;
   border-radius: 4px;
 }
 
 .highlight-item .title {
+  white-space: nowrap;        
+  overflow: hidden;           
+  text-overflow: ellipsis;
   font-weight: bold;
-  margin-bottom: 0.25rem;
   font-size: 0.95rem;
+  width: 250px;
 }
 
 .highlight-item .status {
   color: #4caf50;
   font-size: 0.85rem;
 }
+.dt-btn{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.dt-btn > button {
+  background-color: #4CAF50; 
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
 
-.highlight-item .desc {
-  font-size: 0.8rem;
-  color: #666;
+.dt-btn > button:hover {
+  background-color: #45a049; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
 }
