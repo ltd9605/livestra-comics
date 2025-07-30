@@ -16,7 +16,7 @@ const Container = () => {
           },
         });
         const data = await response.json();
-        console.log('Home:', data);
+        console.log('Updating object :', data);
         setTruyens(data.data);
         const response1 = await fetch('https://otruyenapi.com/v1/api/danh-sach/hoan-thanh?page=1', {
           method: 'GET',
@@ -25,7 +25,7 @@ const Container = () => {
           },
         });
         const data1 = await response1.json();
-        console.log('Truyện hoàn thành:', data1);
+        console.log('Finished object:', data1);
         setTruyenFull(data1.data);
       } catch (error) {
         console.error('Lỗi API:', error);
@@ -37,7 +37,15 @@ const Container = () => {
     fetchTruyen();
   }, []);
 
-  if (loading) return <p>Đang tải...</p>;
+  if (loading) {
+  return (
+    <div className="loading-overlay">
+      <div className="loading-spinner"></div>
+      <p>Đang tải dữ liêu... Độc giả xin chờ xíu ^^ </p>
+    </div>
+  );
+}
+
 
   const DOMAIN_IMAGE = "https://img.otruyenapi.com/uploads/comics";
   return (
@@ -59,7 +67,7 @@ const Container = () => {
               </div>
               <div className="story-info">
                 <p className='desc'>
-                  {truyen.origin_name}
+                  {(truyen.origin_name?.[0] || '').trim() || 'Không rõ tên gốc'}
                 </p>
                 <div className="tags">
                   {truyen.category.map((cat, i) => (
@@ -97,7 +105,7 @@ const Container = () => {
               <img src={`${DOMAIN_IMAGE}/${item.thumb_url}`} alt={item.name}/>
               <div>
                 <p className="title">{item.name}</p>
-                <p className='desc'>{item.origin_name}</p>
+                <p className='desc'>{(item.origin_name?.[0] || '').trim() || 'Không rõ tên gốc'}</p>
                 <p className="status">{item.status}</p>
                 <div className="tags">
                   {item.category.slice(0, 3).map((cat, i) => (
